@@ -1,0 +1,2 @@
+<button class="btn btn-dark w-100 m-auto" (click)="setOperation()" *ngIf="operator != 'C' && operator != '<-'"> {{ operator}} </button>
+<button class="btn btn-dark w-100" (click)="setOperation()" *ngIf="operator == 'C' || operator == '<-'"> {{ operator}} </button>
