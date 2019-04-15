@@ -5,6 +5,7 @@
     width: 235px;
     background-image: linear-gradient(to right, #0396ff , #32ccbc);
     border-radius: 15px;
+    box-shadow: 0 0 10px rgba(224, 224, 224, 0.3);
 }
 
 body {
